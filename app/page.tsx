@@ -1,3 +1,4 @@
+"use client";
 import content from "../data/content_posts.json";
 import sales from "../data/daily_sales.json";
 import { buildDayRows, bucketInsights } from "./lib/analytics";
