@@ -1,0 +1,206 @@
+{
+  "daily_sales": [
+    {
+      "date": "2025-12-01",
+      "revenue": 312,
+      "orders": 9,
+      "units_sold": {
+        "THE BOX": 5,
+        "DEFINE": 2,
+        "SALT": 1,
+        "HOLD": 1
+      }
+    },
+    {
+      "date": "2025-12-02",
+      "revenue": 478,
+      "orders": 14,
+      "units_sold": {
+        "THE BOX": 8,
+        "DEFINE": 3,
+        "SALT": 2,
+        "HOLD": 1
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "revenue": 389,
+      "orders": 11,
+      "units_sold": {
+        "THE BOX": 6,
+        "DEFINE": 2,
+        "SALT": 2,
+        "HOLD": 1
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "revenue": 567,
+      "orders": 17,
+      "units_sold": {
+        "THE BOX": 10,
+        "DEFINE": 4,
+        "SALT": 2,
+        "HOLD": 1
+      }
+    },
+    {
+      "date": "2025-12-05",
+      "revenue": 623,
+      "orders": 19,
+      "units_sold": {
+        "THE BOX": 11,
+        "DEFINE": 4,
+        "SALT": 3,
+        "HOLD": 1
+      }
+    },
+    {
+      "date": "2025-12-06",
+      "revenue": 445,
+      "orders": 13,
+      "units_sold": {
+        "THE BOX": 7,
+        "DEFINE": 3,
+        "SALT": 2,
+        "HOLD": 1
+      }
+    },
+    {
+      "date": "2025-12-07",
+      "revenue": 356,
+      "orders": 10,
+      "units_sold": {
+        "THE BOX": 5,
+        "DEFINE": 2,
+        "SALT": 2,
+        "HOLD": 1
+      }
+    },
+    {
+      "date": "2025-12-08",
+      "revenue": 412,
+      "orders": 12,
+      "units_sold": {
+        "THE BOX": 6,
+        "DEFINE": 3,
+        "SALT": 2,
+        "HOLD": 1
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "revenue": 534,
+      "orders": 16,
+      "units_sold": {
+        "THE BOX": 9,
+        "DEFINE": 4,
+        "SALT": 2,
+        "HOLD": 1
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "revenue": 712,
+      "orders": 21,
+      "units_sold": {
+        "THE BOX": 12,
+        "DEFINE": 5,
+        "SALT": 3,
+        "HOLD": 1
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "revenue": 845,
+      "orders": 25,
+      "units_sold": {
+        "THE BOX": 15,
+        "DEFINE": 6,
+        "SALT": 3,
+        "HOLD": 1
+      }
+    },
+    {
+      "date": "2025-12-12",
+      "revenue": 623,
+      "orders": 18,
+      "units_sold": {
+        "THE BOX": 10,
+        "DEFINE": 4,
+        "SALT": 3,
+        "HOLD": 1
+      }
+    },
+    {
+      "date": "2025-12-13",
+      "revenue": 534,
+      "orders": 16,
+      "units_sold": {
+        "THE BOX": 9,
+        "DEFINE": 4,
+        "SALT": 2,
+        "HOLD": 1
+      }
+    },
+    {
+      "date": "2025-12-14",
+      "revenue": 489,
+      "orders": 14,
+      "units_sold": {
+        "THE BOX": 8,
+        "DEFINE": 3,
+        "SALT": 2,
+        "HOLD": 1
+      }
+    },
+    {
+      "date": "2025-12-15",
+      "revenue": 678,
+      "orders": 20,
+      "units_sold": {
+        "THE BOX": 12,
+        "DEFINE": 4,
+        "SALT": 3,
+        "HOLD": 1
+      }
+    },
+    {
+      "date": "2025-12-16",
+      "revenue": 923,
+      "orders": 27,
+      "units_sold": {
+        "THE BOX": 16,
+        "DEFINE": 6,
+        "SALT": 4,
+        "HOLD": 1
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_001",
+      "name": "THE BOX",
+      "price": 49,
+      "description": "Complete grooming kit with all essentials"
+    },
+    {
+      "id": "prod_002",
+      "name": "DEFINE",
+      "price": 18,
+      "description": "Styling paste for textured looks"
+    },
+    {
+      "id": "prod_003",
+      "name": "SALT",
+      "price": 17,
+      "description": "Sea salt spray for natural waves"
+    },
+    {
+      "id": "prod_004",
+      "name": "HOLD",
+      "price": 17,
+      "description": "Strong hold hairspray"
+    }
+  ]
+}
