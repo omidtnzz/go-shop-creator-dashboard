@@ -1,6 +1,6 @@
 import content from "../data/content_posts.json";
 import sales from "../data/daily_sales.json";
-import { buildDayRows, bucketInsights } from "../lib/analytics";
+import { buildDayRows, bucketInsights } from "./lib/analytics";
 
 import {
   LineChart,
@@ -14,10 +14,9 @@ import {
 } from "recharts";
 
 export default function Home() {
-  // @ts-expect-error – JSON import typing is fine for this prototype
-  const posts = content.posts;
-  // @ts-expect-error – JSON import typing is fine for this prototype
-  const dailySales = sales.daily_sales;
+  const posts = (content as { posts: any[] }).posts;
+  const dailySales = (sales as { daily_sales: any[] }).daily_sales;
+  
 
   const rows = buildDayRows(posts, dailySales);
 
