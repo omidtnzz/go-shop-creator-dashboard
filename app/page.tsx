@@ -184,8 +184,6 @@ export default function Home() {
               subtitle={formatPctDiffSentence(salesEffect.winner, salesEffect.pctDiff, "sales")}
               leftPct={60}
               rightPct={40}
-              leftColor={purple}
-              rightColor={tiktokColor}
             />
 
             <SplitBar
@@ -195,8 +193,6 @@ export default function Home() {
               subtitle={formatPctDiffSentence(reachEffect.winner, reachEffect.pctDiff, "reach")}
               leftPct={40}
               rightPct={60}
-              leftColor={purple}
-              rightColor={tiktokColor}
             />
           </div>
 
